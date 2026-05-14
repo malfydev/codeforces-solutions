@@ -1,0 +1,9 @@
+#include <iostream>
+
+int main()
+{
+    std::string line;
+    std::cin >> line;
+
+    std::cout << (char) toupper(line.at(0)) << line.substr(1) << '\n';
+}
